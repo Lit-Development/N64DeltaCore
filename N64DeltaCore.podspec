@@ -3,12 +3,12 @@ Pod::Spec.new do |spec|
   spec.version      = "0.1"
   spec.summary      = "Nintendo 64 plug-in for Delta emulator."
   spec.description  = "iOS framework that wraps Mupen64Plus to allow playing Nintendo 64 games with Delta emulator."
-  spec.homepage     = "https://github.com/rileytestut/N64DeltaCore"
+  spec.homepage     = "https://github.com/Lit-Development/N64DeltaCore"
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "https://github.com/rileytestut/N64DeltaCore.git" }
+  spec.source       = { :git => "https://github.com/Lit-Development/N64DeltaCore.git" }
 
-  spec.author             = { "Riley Testut" => "riley@rileytestut.com" }
-  spec.social_media_url   = "https://twitter.com/rileytestut"
+  spec.author             = { "Chris Rittenhouse" => "dev@litritt.com" }
+  spec.social_media_url   = "https://twitter.com/lit_ritt"
   
   spec.source_files  = "N64DeltaCore/**/*.{h,m,mm,cpp,swift}", "N64DeltaCore/N64DeltaCore.h", "Mupen64Plus/mupen64plus-core/src/backends/api/video_capture_backend.c", "Mupen64Plus/mupen64plus-core/src/device/dd/dd_controller.c", "Mupen64Plus/mupen64plus-core/src/device/controllers/paks/biopak.c", "Mupen64Plus/mupen64plus-core/src/backends/dummy_video_capture.c", "Mupen64Plus/mupen64plus-core/src/api/**/*.{h,hpp}", "Mupen64Plus/mupen64plus-core/src/backends/**/*.{h,hpp}", "Mupen64Plus/mupen64plus-core/src/device/**/*.{h,hpp}", "Mupen64Plus/mupen64plus-core/src/main/**/*.{h,hpp}", "Mupen64Plus/mupen64plus-core/src/osal/**/*.{h,hpp}", "Mupen64Plus/mupen64plus-core/src/osd/**/*.{h,hpp}", "Mupen64Plus/mupen64plus-core/src/plugin/**/*.{h,hpp}", "Mupen64Plus/mupen64plus-core/subprojects/**/*.{h,hpp}", "libMupen64Plus/SDL/*.{h,hpp}"
   spec.exclude_files = "Mupen64Plus/mupen64plus-core/src/api/config.h"
