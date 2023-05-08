@@ -9,7 +9,7 @@
 #import "N64EmulatorBridge.h"
 
 #define M64P_CORE_PROTOTYPES
-#define N64_ANALOG_MAX 80
+#define N64_ANALOG_MAX 88
 
 #include "api/m64p_common.h"
 #include "api/m64p_config.h"
@@ -163,7 +163,7 @@ static void MupenInitiateControllers (CONTROL_INFO ControlInfo)
     // TODO: could make these `Present` values configurable
     // by having Delta tell DeltaCore which controllers are actually connected
     ControlInfo.Controls[0].Present = 1;
-    ControlInfo.Controls[0].Plugin = PLUGIN_RAW;
+    ControlInfo.Controls[0].Plugin = PLUGIN_MEMPAK;
     ControlInfo.Controls[1].Present = 1;
     ControlInfo.Controls[1].Plugin = PLUGIN_MEMPAK;
     ControlInfo.Controls[2].Present = 1;
