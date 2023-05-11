@@ -737,6 +737,12 @@ static void MupenSetAudioSpeed(int percent)
     return configDirectoryURL;
 }
 
+#pragma mark - Palette -
+
+- (void)updatePalette
+{
+}
+
 @end
 
 #pragma mark - Mupen64Plus Callbacks -
