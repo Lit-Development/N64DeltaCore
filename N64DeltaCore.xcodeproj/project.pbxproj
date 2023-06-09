@@ -513,7 +513,7 @@
 		BF799668224C0598009B094F /* SDLStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = BF799664224C0598009B094F /* SDLStubs.m */; };
 		BF799678224C09A1009B094F /* N64DeltaCore_RSP.h in Headers */ = {isa = PBXBuildFile; fileRef = BF799676224C09A1009B094F /* N64DeltaCore_RSP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF9B5980227A52CE0011C8B4 /* Standard.deltamapping in Resources */ = {isa = PBXBuildFile; fileRef = BF9B597F227A52CD0011C8B4 /* Standard.deltamapping */; };
-		BF9B5982227A52D40011C8B4 /* Standard.deltaskin in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5981227A52D40011C8B4 /* Standard.deltaskin */; };
+		BF9B5982227A52D40011C8B4 /* Standard.ignitedskin in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5981227A52D40011C8B4 /* Standard.ignitedskin */; };
 		BFCB0FD722568D330056F983 /* N64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EFCFF224C33830032AD78 /* N64.swift */; };
 		BFFDF04223E3CAC800931B96 /* N64Types.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFDF04023E3CAC800931B96 /* N64Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFFDF04B23E3E56000931B96 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = BF799532224BFF6C009B094F /* common.c */; };
@@ -1401,7 +1401,7 @@
 		BF799676224C09A1009B094F /* N64DeltaCore_RSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64DeltaCore_RSP.h; sourceTree = "<group>"; };
 		BF799677224C09A1009B094F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF9B597F227A52CD0011C8B4 /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
-		BF9B5981227A52D40011C8B4 /* Standard.deltaskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.deltaskin; path = "Controller Skin/Standard.deltaskin"; sourceTree = "<group>"; };
+		BF9B5981227A52D40011C8B4 /* Standard.ignitedskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.ignitedskin; path = "Controller Skin/Standard.ignitedskin"; sourceTree = "<group>"; };
 		BFFDF04023E3CAC800931B96 /* N64Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64Types.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -3218,7 +3218,7 @@
 			isa = PBXGroup;
 			children = (
 				BF799018224BF59E009B094F /* Info.plist */,
-				BF9B5981227A52D40011C8B4 /* Standard.deltaskin */,
+				BF9B5981227A52D40011C8B4 /* Standard.ignitedskin */,
 				BF9B597F227A52CD0011C8B4 /* Standard.deltamapping */,
 			);
 			name = "Supporting Files";
@@ -3669,7 +3669,7 @@
 				BF6E4E622261721A00E24788 /* mupen64plus.ini in Resources */,
 				BF6E4E632261722900E24788 /* GLideN64.ini in Resources */,
 				BF9B5980227A52CE0011C8B4 /* Standard.deltamapping in Resources */,
-				BF9B5982227A52D40011C8B4 /* Standard.deltaskin in Resources */,
+				BF9B5982227A52D40011C8B4 /* Standard.ignitedskin in Resources */,
 				BF6E4E642261722C00E24788 /* GLideN64.custom.ini in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

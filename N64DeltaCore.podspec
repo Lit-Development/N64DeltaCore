@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "N64DeltaCore/Types/N64Types.h", "N64DeltaCore/Bridge/N64EmulatorBridge.h", "N64DeltaCore/N64DeltaCore.h"
   spec.header_mappings_dir = ""
   spec.resource_bundles = {
-    "Mupen64Plus" => ["N64DeltaCore/**/*.deltamapping", "N64DeltaCore/**/*.deltaskin", "Mupen64Plus/**/*.ini"]
+    "Mupen64Plus" => ["N64DeltaCore/**/*.deltamapping", "N64DeltaCore/**/*.ignitedskin", "Mupen64Plus/**/*.ini"]
   }
   
   spec.xcconfig = {
