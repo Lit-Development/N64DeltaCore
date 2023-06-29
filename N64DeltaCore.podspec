@@ -3,9 +3,9 @@ Pod::Spec.new do |spec|
   spec.version      = "0.1"
   spec.summary      = "Nintendo 64 plug-in for Delta emulator."
   spec.description  = "iOS framework that wraps Mupen64Plus to allow playing Nintendo 64 games with Delta emulator."
-  spec.homepage     = "https://github.com/Lit-Development/N64DeltaCore"
+  spec.homepage     = "https://github.com/LitRitt/N64DeltaCore"
   spec.platform     = :ios, "14.0"
-  spec.source       = { :git => "https://github.com/Lit-Development/N64DeltaCore.git" }
+  spec.source       = { :git => "https://github.com/LitRitt/N64DeltaCore.git" }
 
   spec.author             = { "Chris Rittenhouse" => "dev@litritt.com" }
   spec.social_media_url   = "https://twitter.com/lit_ritt"
