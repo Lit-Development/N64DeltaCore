@@ -364,6 +364,8 @@ static void MupenSetAudioSpeed(int percent)
     
     ConfigSaveSection("Video-GLideN64");
     
+    self.updateOverscanConfig;
+    
     NSData *romData = [NSData dataWithContentsOfURL:gameURL options:NSDataReadingMappedAlways error:nil];
     if (romData.length == 0)
     {
@@ -646,6 +648,32 @@ static void MupenSetAudioSpeed(int percent)
 
 - (void)updateCheats
 {
+}
+
+#pragma mark - Overscan Config -
+
+- (void)updateOverscanConfig
+{
+    /* Configure Overscan */
+    m64p_handle gliden64;
+    ConfigOpenSection("Video-GLideN64", &gliden64);
+    
+    int overscan = 1;
+    int top = [self overscanTop];
+    int bottom = [self overscanBottom];
+    int left = [self overscanLeft];
+    int right = [self overscanRight];
+    ConfigSetParameter(gliden64, "EnableOverscan", M64TYPE_BOOL, &overscan);
+    ConfigSetParameter(gliden64, "OverscanNtscTop", M64TYPE_INT, &top);
+    ConfigSetParameter(gliden64, "OverscanNtscBottom", M64TYPE_INT, &bottom);
+    ConfigSetParameter(gliden64, "OverscanNtscLeft", M64TYPE_INT, &left);
+    ConfigSetParameter(gliden64, "OverscanNtscRight", M64TYPE_INT, &right);
+    ConfigSetParameter(gliden64, "OverscanPalTop", M64TYPE_INT, &top);
+    ConfigSetParameter(gliden64, "OverscanPalBottom", M64TYPE_INT, &bottom);
+    ConfigSetParameter(gliden64, "OverscanPalLeft", M64TYPE_INT, &left);
+    ConfigSetParameter(gliden64, "OverscanPalRight", M64TYPE_INT, &right);
+    
+    ConfigSaveSection("Video-GLideN64");
 }
 
 #pragma mark - Helper Methods -

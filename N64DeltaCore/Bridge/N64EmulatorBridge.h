@@ -23,6 +23,13 @@ __attribute__((visibility("default")))
 
 @property (nonatomic, readonly) AVAudioFormat *preferredAudioFormat;
 
+@property (nonatomic) UInt16 overscanTop;
+@property (nonatomic) UInt16 overscanBottom;
+@property (nonatomic) UInt16 overscanLeft;
+@property (nonatomic) UInt16 overscanRight;
+
+- (void)updateOverscanConfig;
+
 @end
 
 NS_ASSUME_NONNULL_END
