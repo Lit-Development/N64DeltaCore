@@ -8,6 +8,6 @@
 
 #import "N64Types.h"
 
-GameType const GameTypeN64 = @"com.rileytestut.delta.game.n64";
+GameType const GameTypeN64 = @"com.litritt.ignited.game.n64";
 
 CheatType const CheatTypeGameShark = @"GameShark";

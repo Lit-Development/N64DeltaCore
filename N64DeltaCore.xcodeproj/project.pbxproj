@@ -4023,7 +4023,7 @@
 					"-mfpu=neon",
 					"-D__VEC4_OPT",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.N64DeltaCore-Video";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litritt.N64DeltaCore-Video";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SKIP_INSTALL = YES;
@@ -4075,7 +4075,7 @@
 					"-mfpu=neon",
 					"-D__VEC4_OPT",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.N64DeltaCore-Video";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litritt.N64DeltaCore-Video";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SKIP_INSTALL = YES;
@@ -4258,7 +4258,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.N64DeltaCore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litritt.N64DeltaCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -4299,7 +4299,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.N64DeltaCore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litritt.N64DeltaCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -4395,7 +4395,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.N64DeltaCore-RSP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litritt.N64DeltaCore-RSP";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4421,7 +4421,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.N64DeltaCore-RSP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litritt.N64DeltaCore-RSP";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

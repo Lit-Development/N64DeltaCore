@@ -1,7 +1,7 @@
 {
   "name" : "Standard N64",
-  "identifier" : "com.delta.n64.standard",
-  "gameTypeIdentifier" : "com.rileytestut.delta.game.n64",
+  "identifier" : "com.ignited.n64.standard",
+  "gameTypeIdentifier" : "com.litritt.ignited.game.n64",
   "debug" : false,
   "representations" : {
     "iphone" : {

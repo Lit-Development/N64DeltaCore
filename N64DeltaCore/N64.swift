@@ -57,7 +57,7 @@ public struct N64: DeltaCoreProtocol
     public static let core = N64()
     
     public var name: String { "Mupen64Plus" }
-    public var identifier: String { "com.rileytestut.N64DeltaCore" }
+    public var identifier: String { "com.litritt.N64DeltaCore" }
     
     public var gameType: GameType { GameType.n64 }
     public var gameInputType: Input.Type { N64GameInput.self }
